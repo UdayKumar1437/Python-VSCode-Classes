@@ -31,7 +31,13 @@
 # print(ans)
 
 
-a = "My name is Rizwana rizwana rizwana"
+# a = "My name is Rizwana rizwana rizwana"
 
-ans = a.replace("rizwana","kedar")
+# ans = a.replace("rizwana","kedar")
+# print(ans)
+
+a = "my namE is Uday KuMaR"
+
+ans = a.swapcase()
+
 print(ans)
