@@ -14,7 +14,15 @@
 #     sum=sum+i
 # print(sum)
 
-num = 10
-for i in range(1,num+1):
-    if num%i == 0:
-        print(i)
+# num = 10
+# for i in range(1,num+1):
+#     if num%i == 0:
+#         print(i)
+
+
+a = [2,5,8,9,6,44,5,99]
+leftHand = a[0]
+for rightHand in a:
+    if rightHand < leftHand:
+        leftHand = rightHand
+print(leftHand)
