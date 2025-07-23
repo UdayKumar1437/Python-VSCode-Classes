@@ -9,9 +9,6 @@
 #     ans[i] = a
 # print(ans)
 
-
-
-
 arr = [1,1,2,3,6,2]
 ans= {}
 for i in arr:
