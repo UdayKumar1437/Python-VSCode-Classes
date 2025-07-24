@@ -27,12 +27,12 @@
 
 
 
-# def Factors(kedarNum):
-#     ans = []
-#     for i in range(1,kedarNum+1):
-#         if kedarNum%i ==0:
-#             ans.append(i)
-#     print(ans)
+def Factors(kedarNum):
+    ans = []
+    for i in range(1,kedarNum+1):
+        if kedarNum%i ==0:
+            ans.append(i)
+    return ans
 
 
 # Factors(10)
@@ -57,14 +57,28 @@
 
 
 
-def greet(name):
-    print("Good Morning",name)
+# def greet(name):
+#     print("Good Morning",name)
 
-# greet("Rizwana")
+# # greet("Rizwana")
 
-def isPalindromeString(stringName):
-    if stringName == stringName[::-1]:
-        print("Palindrome")
-    else:
-        print("Not a palindrome")
-isPalindromeString()
+# def isPalindromeString(stringName):
+#     if stringName == stringName[::-1]:
+#         print("Palindrome")
+#     else:
+#         print("Not a palindrome")
+# isPalindromeString()
+
+
+
+a = [10,25,3,6,22]
+
+ans = {}
+for i in a:
+    ans[i] = Factors(i)
+print(ans)
+
+
+
+ab = Factors(1000)
+print(ab)
