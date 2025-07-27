@@ -72,3 +72,22 @@
 
 
 # 5*20 = 100
+
+
+
+def factorial(num):
+    ans =1
+    for i in range(1,num+1):
+        ans=ans*i
+    return ans
+
+num = 120
+sum = 0
+strNum = str(num)
+for i in strNum:
+    sum = sum +factorial(int(i))
+
+if sum == num:
+    print("Strong")
+else:
+    print("Not a Strong Number")
